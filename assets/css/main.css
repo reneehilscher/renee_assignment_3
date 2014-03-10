@@ -1,0 +1,147 @@
+@import url("reset.css");
+
+
+/** :after{
+	content:"";
+	clear:both;
+}*/
+html {
+	background-color:#efede6;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+body {
+	background-color: #efede6;
+	color: #000;
+}
+
+p {
+	font-size: 20px;
+}
+
+section {
+	margin-bottom: 100px;
+	width: 33%;
+
+}
+
+section > h2 {
+	color: #A87639;
+}
+
+article {
+	margin-bottom: 20px;
+}
+
+.name {
+	text-transform: uppercase;
+	color: #597764;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 100px;
+	overflow: auto;
+	background-color: #f4f2ed;
+}
+
+.inner-container {
+	padding: 10px;
+	overflow: hidden;
+}
+
+.profile > img {
+	margin-bottom: 30px;
+}
+
+.main {
+	margin-bottom: 100px;
+}
+
+.name_occupation {
+	margin-left: 20px;
+}
+
+
+.education >h2:before {
+	content: url(../images/education.png); 
+	height: 50px;
+	width: 50px;
+	padding-right: 10px;
+}
+
+.about_me {
+	width: 50%;
+}
+
+.employment_history >h2:before {
+	content: url(../images/work.png); 
+	height: 50px;
+	width: 50px;
+	padding-right: 20px;
+}
+
+section > h2 {
+	margin-bottom: 25px;
+}
+
+
+
+.skills >h2:before {
+	content: url(../images/skills.png); 
+	height: 50px;
+	width: 50px;
+	padding-right: 20px;
+}
+
+.email:before {
+	content: "Email: ";
+	color:#69B9D7;
+}
+
+.address:before {
+	content: "Address: ";
+	color:#69B9D7;
+}
+
+.website:before {
+	content: "Website: ";
+	color:#69B9D7;
+}
+
+.occupation {
+	color:#69B9D7;
+}
+
+.contact_info p {
+	margin-bottom:10px;
+}
+
+.contact_info {
+	width:30%;
+}
+
+.left {
+	float: left;
+}
+
+.clr {
+	clear: both;
+}
+.right {
+	float: right;
+}
+
+
+
+/* media queries */
+
+
