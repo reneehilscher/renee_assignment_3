@@ -143,5 +143,21 @@ section > h2 {
 
 
 /* media queries */
+@media only screen and (min-width: 0px) and (max-width: 400px) {
+	.left, .right {
+		clear:both;
+	}
 
+	.contact_info{
+		width:100%;
+	}
+
+	.profile > img{
+		margin-left:30%;
+	}
+
+	.container{
+		width:100%;
+	}
+}
 
